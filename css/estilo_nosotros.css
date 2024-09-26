@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+body{
+    background-image : url(../img/fondo/ram_historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width           : 100%;
+    height          : 50px;
+    background-color: #173ABD;
+    display         : flex;
+    position        : fixed;
+}
+.logo{
+    width      : 200px;
+    color      : #fff;
+    margin-left: 3%;
+}
+.logo a{
+    text-decoration: none;
+    color          : #fff;
+}
+.logo h2{
+    font-family: verdana, sans-serif;
+    margin-top : 4%;
+}
+.menu{
+    margin-left: 50%;
+}
+.menu ul{
+    list-style: none;
+    display   : flex;
+    padding   : 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding        : 0 15px;
+    color          : #fff;
+    font-size      : 150%;
+    font-family    : calibri, sans-serif;
+    text-transform : uppercase;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.contenedor_historia{
+    width           : 55%;
+    background-color: rgba(255,255,255,0.7);
+    float           : left;
+    margin-left     : 40%;
+    margin-top      : 6%;
+    border-radius   : 2%;
+}
+.titulo{
+    padding-top  : 4%;
+    border-bottom: 1px solid blue;
+}
+.titulo h2{
+    text-align : center;
+    font-family: verdana, sans-serif;
+}
+#parrafo1{
+    text-align: justify;
+    padding   : 2% 2%;
+}
+#parrafo2{
+    text-align: justify;
+    padding   : 2% 2%;
+}
+.anterior{
+    float      : left;
+    margin-left: 5%;
+}
+.anterior img{
+    width     : 40px;
+    height    : 40px;
+    float     : left;
+    margin-top: -2%;
+}
+.anterior a{
+    color          : #000;
+    text-decoration: none;
+    font-size      : 150%;
+    font-family    : verdana, sans-serif;
+}
+.anterior a:hover{
+    text-decoration: underline;
+}
+.siguiente{
+    float       : right;
+    margin-right: 5%;
+}
+.siguiente a{
+    color          : #000;
+    text-decoration: none;
+    font-size      : 150%;
+    font-family    : verdana, sans-serif;
+}
+.siguiente a:hover{
+    text-decoration: underline;
+}
+.siguiente a img{
+    width     : 40px;
+    height    : 40px;
+    float     : right;
+    margin-top: -2%;
+}
+footer{
+    width     : 100%;
+    background: #000;
+    height    : 100px;
+    bottom    : 0;
+    position  : fixed;
+}
+.logo_footer{
+    float       : left;
+    width       : 200px;
+    height      : 80px;
+    padding-left: 3%;
+    padding-top : 1.5%;
+    border-right: 1px solid #fff;
+}
+.logo_footer h2{
+    color      : #fff;
+    font-family: verdana, sans-serif;
+    padding-top: 7%;
+}
+.menu_footer{
+    float: left;
+}
+.menu_footer ul{
+    list-style: none;
+    display   : block;
+    padding   : 10px;
+    margin-top: 1%;
+}
+.menu_footer ul li a{
+    text-decoration: none;
+    color          : #fff;
+    font-family    : verdana, sans-serif;
+    font-size      : 100%;
+}
+.menu_footer ul li a:hover{
+    text-decoration: underline;
+}
+.social{
+    float        : right;
+    padding-top  : 1.5%;
+    padding-right: 4%;
+}
+.social ul{
+    display: flex;
+}
+.social ul li{
+    padding: 8px 25px;
+}
+.social ul li img{
+    width : 50px;
+    height: 50px;
+}
+.nombre_footer{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    text-align: center;
+    margin-top: 5%;
+}
